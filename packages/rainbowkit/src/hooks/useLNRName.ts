@@ -1,5 +1,5 @@
 import { useMainnet } from './useMainnet';
-import { useLnrName } from '../hooks/useLnrName';
+import { useLnrName } from '../utils/useLnrName';
 
 export function useMainnetLnrName(address: string | undefined) {
   const { chainId, enabled } = useMainnet();
